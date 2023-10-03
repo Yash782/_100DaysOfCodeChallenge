@@ -10,7 +10,7 @@ public class FactorsOfNumber {
         factor(num);
     }
     static void factor(int n ){
-        System.out.println("Factors of "+ n + "are");
+        System.out.println("Factors of "+ n + " are");
 
         for (int i = 1; i <= n; i++) {
             if(n % i == 0){
