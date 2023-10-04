@@ -1,7 +1,7 @@
 package Day_3;
 
 import java.util.Scanner;
-//Given an integer  input the objective is to check whether or not the number is a strong number.
+//Given an integer  input the objective is to check whether, or not the number is a strong number.
 public class StrongNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -9,7 +9,6 @@ public class StrongNumber {
 
         int n = sc.nextInt();
         System.out.println(strongCheck(n));
-
 
     }
     static boolean strongCheck(int n){
