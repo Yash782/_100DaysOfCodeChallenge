@@ -13,7 +13,6 @@ public class NthFibonacciNum {
         int a = 0;
         int b = 1;
 
-
         if(n == 0){
             return 0;
         } else if (n == 1) {
