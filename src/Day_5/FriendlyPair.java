@@ -11,7 +11,8 @@ public class FriendlyPair {
         int n = sc.nextInt();
         System.out.print("Enter number 2: ");
         int m = sc.nextInt();
-        if(factorAndAdd(n)/n == factorAndAdd(m)/m){
+
+        if(factorAndAdd(n) /n == factorAndAdd(m) /m){
             System.out.println("Yes, they are a friendly pair");
         }else {
             System.out.println("No, they are not a friendly pair");
