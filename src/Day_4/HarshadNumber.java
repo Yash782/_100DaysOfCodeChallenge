@@ -23,6 +23,7 @@ public class HarshadNumber {
             a = mod +a;
             n = n/10;
         }
+        System.out.println(a);
         return i % a == 0;
     }
 }
