@@ -10,8 +10,8 @@ public class Factorial {
         System.out.println(fact(n));
 
     }
-    static int fact(int n){
-        int fac =1;
+    static long fact(int n){
+         long fac =1;
         
         for (int i = 1; i < n; i++) {
            fac = fac*(i+1);
