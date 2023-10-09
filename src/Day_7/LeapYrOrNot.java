@@ -9,7 +9,7 @@ public class LeapYrOrNot {
         if(leap(n)){
             System.out.println("Leap year");
         }else {
-            System.out.println("Not a leap year");
+            System.out.println("Not a leap ");
         }
 
     }
