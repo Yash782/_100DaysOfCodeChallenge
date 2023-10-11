@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 //Java Program for Sorting first half of array in Ascending order and
 // second half in Descending order
+//Solved this problem with two methods 1 with simple printng and another one which alters the array itself
 public class HalfAsceHalfDesc {
     public static void main(String[] args) {
         // 1,2,3,4,10,9,8,7,6
