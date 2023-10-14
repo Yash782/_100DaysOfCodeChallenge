@@ -12,6 +12,7 @@ public class ReplaceElementWithItsRank {
         System.out.println("Array replaced with rank:");
         replaceWithRank(arr);
 
+
     }
     static void replaceWithRank(int [] arr){
         int len = arr.length;
