@@ -7,7 +7,11 @@ import java.util.Arrays;
 public class ReplaceElementWithItsRank {
     public static void main(String[] args) {
         int[] arr = { 100, 2, 70, 12 , 90};
+        System.out.println("Original Array: ");
+        System.out.println(Arrays.toString(arr));
+        System.out.println("Array replaced with rank:");
         replaceWithRank(arr);
+
     }
     static void replaceWithRank(int [] arr){
         int len = arr.length;
