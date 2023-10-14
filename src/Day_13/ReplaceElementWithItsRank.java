@@ -11,7 +11,7 @@ public class ReplaceElementWithItsRank {
         System.out.println(Arrays.toString(arr));
         System.out.println("Array replaced with rank:");
         replaceWithRank(arr);
-
+        // This is a trail commit
 
     }
     static void replaceWithRank(int [] arr){
