@@ -2,7 +2,7 @@ package Day_14;
 
 import java.util.Arrays;
 
-//In this program we’ll be learning about Java program for rotation of elements of array- left
+//In this program we’ll be learning about Java program for rotation of elements of array-left
 // and right to a specified number of times. An array is said to be right rotated if all the
 // selected elements were  moved towards right by one position.
 public class LeftRotateArrayByN {
@@ -25,7 +25,6 @@ public class LeftRotateArrayByN {
             int temp = arr[i];
             arr[i] = arr[i+1];
             arr[i+1] = temp;
-
         }
     }
 }
