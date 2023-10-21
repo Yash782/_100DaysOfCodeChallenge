@@ -18,7 +18,6 @@ public class UniqueNumberOfOccurrences {
         for(int i : set){
             set2.add(count(arr, i));
         }
-
         return (set.size()==set2.size());
 
     }
