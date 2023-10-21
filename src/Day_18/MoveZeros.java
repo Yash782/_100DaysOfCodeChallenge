@@ -20,7 +20,6 @@ public class MoveZeros {
                     nums[j+1] = 0;
                 }
             }
-
         }
     }
 }
