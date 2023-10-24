@@ -1,7 +1,7 @@
-package Day_10;
+package Day_23;
 
 import java.util.ArrayList;
-
+//https://prepinsta.com/java-program/to-find-the-frequency-of-elements-in-an-array/
 
 public class FindCountOfEveryElement {
     public static void main(String[] args) {
