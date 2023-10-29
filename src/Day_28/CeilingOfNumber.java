@@ -1,12 +1,13 @@
 package Day_28;
+//Given a sorted array and a value x, the ceiling of x is
+// the smallest element in an array greater than or equal to target
 
 // Only works for arrays which are sorted in ascending order;
 
 public class CeilingOfNumber {
     public static void main(String[] args) {
         int [] nums = {1,23,43,54,65,75,84,86,90,95,100};
-        int target = 23;
-
+        int target = 24;
         //Calling the ceiling function
         int ans = ceiling(nums, target);
         if(ans == -1){
@@ -14,7 +15,6 @@ public class CeilingOfNumber {
         }else {
             System.out.println(ans);
         }
-
     }
     //Return the number => target
     static int ceiling(int[] nums, int target) {
