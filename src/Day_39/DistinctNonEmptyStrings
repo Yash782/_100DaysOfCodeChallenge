@@ -1,0 +1,41 @@
+package Day_39;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
+
+public class DistinctNonEmptyStrings {
+
+    static final int MOD = 1000000007;
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        String s = scanner.next();
+
+        int result = countDistinctStrings(s);
+        System.out.println(result);
+    }
+
+    private static int countDistinctStrings(String s) {
+        int result = 0;
+        ArrayList<Character> charSet = new ArrayList<>();
+
+        for (int i = 0; i < s.length(); i++) {
+            if(!charSet.contains(s.charAt(i))){
+                charSet.add(s.charAt(i));
+            }
+        }
+        for (int i = 0; i < charSet.size(); i++) {
+            result = unique(i, charSet.size()) + result;
+
+        }
+
+
+        return result % MOD;
+    }
+    public static int unique (int start , int size){
+        int count = 0 ;
+    }
+}
