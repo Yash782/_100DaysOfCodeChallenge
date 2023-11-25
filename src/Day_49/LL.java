@@ -1,4 +1,7 @@
 package Day_49;
+
+import org.w3c.dom.Node;
+
 public class LL {
 
     private Node head;
@@ -101,6 +104,7 @@ public class LL {
         return node;
     }
 
+
     public Node find(int value){
         Node node = head;
         while (node != null){
@@ -145,6 +149,31 @@ public class LL {
 
 
     }
+    public static LL merge(LL first, LL second){
+        Node f = first.head;
+        Node s = second.head;
+
+        LL ans = new LL();
+
+        while(f != null && s != null){
+            if(f.value < s.value){
+                ans.insertLast(f.value);
+                f = f.next;
+            }else{
+                ans.insertLast(s.value);
+                s = s.next;
+            }
+        }
+        while(f != null){
+            ans.insertLast(f.value);
+            f = f.next;
+        }
+        while (s != null){
+            ans.insertLast(s.value);
+            s = s.next;
+        }
+        return ans;
+    }
     private class Node{
         private int value;
         private Node next;
@@ -159,5 +188,7 @@ public class LL {
         }
 
     }
+
+
 
 }
